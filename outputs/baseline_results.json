@@ -1,0 +1,31 @@
+{
+  "mode": "baseline",
+  "model_name": "distilgpt2",
+  "load_time_s": 1.5177350044250488,
+  "model_size_mb": 312.4716796875,
+  "avg_latency_s": 1.0314544041951497,
+  "avg_tokens_per_sec": 56.92278219735389,
+  "samples": [
+    {
+      "prompt": "The future of machine learning is",
+      "generated_text": "The future of machine learning is a matter of time.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "latency_in_sec": 1.6741271018981934,
+      "new_tokens": 50,
+      "tokens_per_sec": 29.86631059452294
+    },
+    {
+      "prompt": "Quantization helps large language models by",
+      "generated_text": "Quantization helps large language models by providing a way to understand the language and its components.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "latency_in_sec": 0.6931571960449219,
+      "new_tokens": 50,
+      "tokens_per_sec": 72.13370976352039
+    },
+    {
+      "prompt": "In an IoT anomaly detection pipeline,",
+      "generated_text": "In an IoT anomaly detection pipeline, the company has been working on a new approach to detecting IoT devices.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "latency_in_sec": 0.727078914642334,
+      "new_tokens": 50,
+      "tokens_per_sec": 68.76832623401835
+    }
+  ]
+}

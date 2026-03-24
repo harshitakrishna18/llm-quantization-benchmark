@@ -1,0 +1,31 @@
+{
+  "mode": "4bit",
+  "model_name": "distilgpt2",
+  "load_time_s": 7.032983779907227,
+  "model_size_mb": 170.7216796875,
+  "avg_latency_s": 7.910392602284749,
+  "avg_tokens_per_sec": 6.3630024195828385,
+  "samples": [
+    {
+      "prompt": "The future of machine learning is",
+      "generated_text": "The future of machine learning is a question that has been debated for decades. But it is now a question that has been debated for decades.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "latency_in_sec": 8.734967947006226,
+      "new_tokens": 50,
+      "tokens_per_sec": 5.72411945909163
+    },
+    {
+      "prompt": "Quantization helps large language models by",
+      "generated_text": "Quantization helps large language models by providing a way to visualize the language in a way that is not possible in a language.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "latency_in_sec": 7.842434883117676,
+      "new_tokens": 50,
+      "tokens_per_sec": 6.375570947695652
+    },
+    {
+      "prompt": "In an IoT anomaly detection pipeline,",
+      "generated_text": "In an IoT anomaly detection pipeline, the network is not connected to the network.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "latency_in_sec": 7.153774976730347,
+      "new_tokens": 50,
+      "tokens_per_sec": 6.9893168519612345
+    }
+  ]
+}
