@@ -38,6 +38,6 @@ Starting with a small causal LM (`distilgpt2`) for fast iteration and simple ben
 
 ## Next steps
 - [x] Project skeleton
-- [ ] Baseline benchmark
-- [ ] Quantized benchmark
+- [x] Baseline benchmark
+- [x] Quantized benchmark
 - [ ] Compare results and summarize tradeoffs
