@@ -32,9 +32,9 @@ Starting with a small causal LM (`distilgpt2`) for fast iteration and simple ben
 - Qualitative output comparison
 
 ## Prompts
-1. Explain KV caching in simple terms.
-2. What is the difference between prefill and decode in LLM inference?
-3. Why can quantization help reduce inference cost?
+1. The future of machine learning is
+2. Quantization helps large language models by
+3. In an IoT anomaly detection pipeline,
 
 ## Next steps
 - [x] Project skeleton
