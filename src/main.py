@@ -4,7 +4,7 @@ import os
 
 from src.load_model import load_baseline, load_8bit, load_4bit
 from src.benchmark import benchmark_generation
-from src.utils import get_model_size_mb
+from src.utils import get_model_size_mb, get_runtime_info
 
 PROMPTS = [
     "The future of machine learning is",
@@ -25,6 +25,8 @@ def main():
     else:
         tokenizer, model, load_time = load_4bit(args.model_name)
 
+    runtime_info = get_runtime_info(model=model)
+
     size_mb = get_model_size_mb(model)
 
     generations = []
@@ -43,6 +45,7 @@ def main():
         "avg_latency_s": avg_latency,
         "avg_tokens_per_sec": avg_tps,
         "samples": generations,
+        "runtime_info": runtime_info
     }
 
     os.makedirs("outputs", exist_ok=True)
